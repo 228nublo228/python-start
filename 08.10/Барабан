@@ -1,0 +1,15 @@
+size(1800,900)
+
+push()
+translate(900,450)
+ellipse(0,0,450,450)
+pop()
+
+fill(0,0,0)
+ellipse(900,450,150,150)
+ellipse(840,350,75,75)
+ellipse(960,350,75,75)
+ellipse(770,450,75,75)
+ellipse(1030,450,75,75)
+ellipse(840,550,75,75)
+ellipse(960,550,75,75)
