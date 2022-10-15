@@ -1,0 +1,17 @@
+size(1400,800)
+background(0,0,200)
+
+push()
+translate(500,400)
+rotate(45)
+ellipse(0,0,500,250)
+pop()
+
+push()
+fill(3,233,255)
+ellipse(440,300,125,125)
+ellipse(550,500,125,125)
+pop()
+
+fill(255,0,0)
+triangle(350,250,,200,450,250)
