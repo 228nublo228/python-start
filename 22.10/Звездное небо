@@ -1,0 +1,14 @@
+x = 0
+y = 0
+
+def setup():
+    size(1600,800)
+    background(0,44,255)
+    strokeWeight(10)
+    stroke(22,21,255)
+    
+def draw():
+    x = random(0,800)
+    y = random(0,400)
+    random(0,800)
+    point(0,2)
