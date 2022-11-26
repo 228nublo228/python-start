@@ -1,0 +1,37 @@
+x = 0
+y = 0
+x = 0
+y = 0
+x1 = 0
+y1 = 0
+x2 = 0
+y2 = 0
+
+
+def setup():
+    global x,y,x1,y1,x2,y2
+    x = 0
+    y = 0
+    x1 = 20
+    y1 = 20
+    x2 = 2
+    y2 = 2
+    size(1600,800)
+    frameRate(50)
+
+def draw():
+    global x,y,x1,y1,x2,y2
+    x1 = random(0,20)
+    y1 = random(0,20)
+    fill(random(0,255),random(0,255),random(0,255))
+    ellipse(x,y,x1,y1)
+    if y < 800:
+        
+        x = x + x2
+        y = y + y2
+    else:
+        while y !=800:
+        tab|
+        while y!=0:
+        tab|
+        y = y-1
