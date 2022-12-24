@@ -1,0 +1,8 @@
+def setup():
+    size(1600,800)
+    frameRate(2)
+def draw():
+    global x,y,x1,y1,x2,y2,x3,y3,x4,y4,x5,y5,x6,y6,x7,y7
+    strokeWeight(random(0,15))
+    background(155)
+    point(random(0,1600),random(0, 800))
